@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // Parameters
+    // MARK: Parameters
     @IBOutlet weak var redSlider: UISlider!
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func colorChange(sender: AnyObject) {
         
-        let redColor: CGFloat = CGFloat( redSlider.value)
+        let redColor: CGFloat = CGFloat(redSlider.value)
         let greenColor: CGFloat = CGFloat(greenSlider.value)
         let blueColor: CGFloat = CGFloat(blueSlider.value)
         
