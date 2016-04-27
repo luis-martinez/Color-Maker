@@ -10,9 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Parameters
+    @IBOutlet weak var redSlider: UISlider!
+    @IBOutlet weak var greenSlider: UISlider!
+    @IBOutlet weak var blueSlider: UISlider!
+    
+    @IBOutlet weak var colorView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    
+    @IBAction func colorChange(sender: AnyObject) {
+        
+        let redColor: CGFloat = CGFloat( redSlider.value)
+        let greenColor: CGFloat = CGFloat(greenSlider.value)
+        let blueColor: CGFloat = CGFloat(blueSlider.value)
+        
+        colorView.backgroundColor = UIColor(red: redColor, green: greenColor, blue: blueColor, alpha: 1)
+        
     }
 
     override func didReceiveMemoryWarning() {
