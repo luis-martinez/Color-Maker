@@ -14,6 +14,10 @@
 		BCA46C5E1CD12D6B000C3B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA46C5C1CD12D6B000C3B19 /* LaunchScreen.storyboard */; };
 		BCA46C691CD12D6B000C3B19 /* Color_MakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46C681CD12D6B000C3B19 /* Color_MakerTests.swift */; };
 		BCA46C741CD12D6B000C3B19 /* Color_MakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46C731CD12D6B000C3B19 /* Color_MakerUITests.swift */; };
+		BCDA09BF1CD1508300C8D815 /* screenshoot1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDA09BB1CD1508300C8D815 /* screenshoot1.png */; };
+		BCDA09C01CD1508300C8D815 /* screenshoot2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDA09BC1CD1508300C8D815 /* screenshoot2.png */; };
+		BCDA09C11CD1508300C8D815 /* screenshoot3.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDA09BD1CD1508300C8D815 /* screenshoot3.png */; };
+		BCDA09C21CD1508300C8D815 /* screenshoot4.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDA09BE1CD1508300C8D815 /* screenshoot4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		BCA46C6F1CD12D6B000C3B19 /* Color-MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color-MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA46C731CD12D6B000C3B19 /* Color_MakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_MakerUITests.swift; sourceTree = "<group>"; };
 		BCA46C751CD12D6B000C3B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDA09BB1CD1508300C8D815 /* screenshoot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshoot1.png; sourceTree = "<group>"; };
+		BCDA09BC1CD1508300C8D815 /* screenshoot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshoot2.png; sourceTree = "<group>"; };
+		BCDA09BD1CD1508300C8D815 /* screenshoot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshoot3.png; sourceTree = "<group>"; };
+		BCDA09BE1CD1508300C8D815 /* screenshoot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshoot4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 				BCA46C671CD12D6B000C3B19 /* Color-MakerTests */,
 				BCA46C721CD12D6B000C3B19 /* Color-MakerUITests */,
 				BCA46C511CD12D6A000C3B19 /* Products */,
+				BCDA09BB1CD1508300C8D815 /* screenshoot1.png */,
+				BCDA09BC1CD1508300C8D815 /* screenshoot2.png */,
+				BCDA09BD1CD1508300C8D815 /* screenshoot3.png */,
+				BCDA09BE1CD1508300C8D815 /* screenshoot4.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,7 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA46C5E1CD12D6B000C3B19 /* LaunchScreen.storyboard in Resources */,
+				BCDA09C21CD1508300C8D815 /* screenshoot4.png in Resources */,
+				BCDA09BF1CD1508300C8D815 /* screenshoot1.png in Resources */,
 				BCA46C5B1CD12D6B000C3B19 /* Assets.xcassets in Resources */,
+				BCDA09C11CD1508300C8D815 /* screenshoot3.png in Resources */,
+				BCDA09C01CD1508300C8D815 /* screenshoot2.png in Resources */,
 				BCA46C591CD12D6A000C3B19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +505,7 @@
 				BCA46C7A1CD12D6B000C3B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCA46C7B1CD12D6B000C3B19 /* Build configuration list for PBXNativeTarget "Color-MakerTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +514,7 @@
 				BCA46C7D1CD12D6B000C3B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCA46C7E1CD12D6B000C3B19 /* Build configuration list for PBXNativeTarget "Color-MakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +523,7 @@
 				BCA46C801CD12D6B000C3B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
